@@ -4,5 +4,13 @@
   "description": "My personal internet website",
   "main": "pages/index.js",
   "author": "Max Schoening <max@max.wtf>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "2.0.0-beta.18"
+  }
 }
