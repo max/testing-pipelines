@@ -1,0 +1,8 @@
+{
+  "name": "max.wtf",
+  "version": "0.1.0",
+  "description": "My personal internet website",
+  "main": "pages/index.js",
+  "author": "Max Schoening <max@max.wtf>",
+  "license": "MIT"
+}
