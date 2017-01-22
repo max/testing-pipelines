@@ -1,3 +1,5 @@
+import Image from '../components/image';
+
 const comps = [
   'cli',
   'dashboard-v1',
@@ -17,7 +19,7 @@ export default () => (
 
     {
       comps.map((comp, index) => (
-        <img key={ index } src={ `/static/images/${comp}.jpg` } />
+        <Image key={ index } name={ comp } />
       ))
     }
 
