@@ -3,5 +3,5 @@ const path = (name, suffix='') => {
 };
 
 export default ({ name, alt }) => (
-  <img alt={ alt } src={ path(name) } srcSet={ `${path(name)}, ${path(name, '@2x')} 2x` } />
+  <img alt={ alt } className='db' src={ path(name) } srcSet={ `${path(name)}, ${path(name, '@2x')} 2x` } />
 );

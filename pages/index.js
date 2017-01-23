@@ -25,7 +25,7 @@ export default () => (
 
     {
       comps.map((comp, index) => (
-        <div className={ !isLast(index, comps) && 'mb4' } key={ index }>
+        <div className={ `comp ${!isLast(index, comps) && 'mb4'}` } key={ index }>
           <Image name={ comp } />
         </div>
       ))
@@ -34,6 +34,10 @@ export default () => (
     <style jsx>{`
       .wrapper {
         max-width: 1200px;
+      }
+
+      .comp {
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);
       }
 
       img {
