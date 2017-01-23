@@ -48,5 +48,11 @@ export default () => (
         display: block;
       }
     `}</style>
+
+    <style jsx global>{`
+      body {
+        background: #F8F8F8;
+      }
+    `}</style>
   </div>
 );
