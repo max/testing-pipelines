@@ -20,6 +20,9 @@ export default () => (
   <div className="wrapper center pv4">
     <Head>
       <title>max.wtf</title>
+      <meta charset="utf-8" />
+      <meta content="width=device-width" name="viewport" />
+
       <link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css" />
       <link rel="stylesheet" href="https://unpkg.com/normalize.css@5.0.0/normalize.css" />
     </Head>
