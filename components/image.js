@@ -3,11 +3,19 @@ const path = (name, suffix='') => {
 };
 
 export default ({ alt, height, src, width }) => (
-  <img
-    alt={ alt }
-    className='db'
-    height={ height }
-    src={ path(src) }
-    srcSet={ `${path(src)}, ${path(src, '@2x')} 2x` }
-    width={ width } />
+  <div>
+    <img alt={ alt }
+      className='db'
+      height={ height }
+      src={ path(src) }
+      srcSet={ `${path(src)}, ${path(src, '@2x')} 2x` }
+      width={ width } />
+
+    <style jsx>{`
+      img {
+        height: auto;
+        width: 100%;
+      }
+    `}</style>
+  </div>
 );
