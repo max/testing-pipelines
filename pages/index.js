@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Image from '../components/image';
+import Project from '../components/project';
 import projects from '../lib/projects';
 
 const isLast = (index, items) => ( index + 1 === items.length );
@@ -19,11 +19,7 @@ export default () => (
     {
       projects.map((project, index) => (
         <div className={ `project ${!isLast(index, projects) && 'mb4'}` } key={ index }>
-          <Image
-            alt={ project.title }
-            height={ project.height }
-            src={ project.src }
-            width={ project.width } />
+          <Project project={ project } />
         </div>
       ))
     }
