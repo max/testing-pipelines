@@ -18,7 +18,7 @@ export default () => (
 
     {
       projects.map((project, index) => (
-        <div className={ `project ${!isLast(index, projects) && 'mb4'}` } key={ index }>
+        <div className={ !isLast(index, projects) && 'mb4' } key={ index }>
           <Project project={ project } />
         </div>
       ))
@@ -28,15 +28,12 @@ export default () => (
       .wrapper {
         max-width: 1200px;
       }
-
-      .project {
-        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);
-      }
     `}</style>
 
     <style jsx global>{`
       body {
         background: #F8F8F8;
+        color: #1A1A1A;
         font-family: "Gotham Rounded A", -apple-stytem, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
       }
     `}</style>
