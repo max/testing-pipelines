@@ -20,16 +20,14 @@ export default () => (
       <img src="/static/images/logo.svg" />
     </header>
 
-    <div className="mv5">
+    <div className="mv5 mw6">
       <p>
         Hi,<br />
-        I'm a product 🤓 at Google<br />
-        working on the <a href="https://cloud.google.com/">Google Cloud Platform</a>.
+        I'm a product 🤓 at Google working on the <a href="https://cloud.google.com/">Google Cloud Platform</a>.
       </p>
 
       <p>
-        At one time I ran the product design team at <a href="https://www.heroku.com/">Heroku</a><br />
-        and founded <a href="https://www.getcloudapp.com/">CloudApp</a>.
+        At one time I ran the product design team at <a href="https://www.heroku.com/">Heroku</a> and founded <a href="https://www.getcloudapp.com/">CloudApp</a>.
       </p>
     </div>
 
