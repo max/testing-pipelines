@@ -7,26 +7,46 @@ const isLast = (index, items) => ( index + 1 === items.length );
 export default () => (
   <div className="wrapper center pv4">
     <Head>
-      <title>max.wtf</title>
+      <title>max.wtf – Max Schoening</title>
       <meta charset="utf-8" />
-      <meta content="width=device-width" name="viewport" />
+      <meta name="viewport" content="width=device-width" />
 
       <link rel="stylesheet" href="https://unpkg.com/normalize.css@5.0.0/normalize.css" />
       <link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css" />
-      <link rel="stylesheet" href="https://cloud.typography.com/6040332/6195572/css/fonts.css" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono" />
     </Head>
 
-    {
-      projects.map((project, index) => (
-        <div className={ `project ${!isLast(index, projects) && 'mb4'}` } key={ index }>
-          <Project project={ project } />
-        </div>
-      ))
-    }
+    <header className="pv4">
+      <img src="/static/images/logo.svg" />
+    </header>
+
+    <div className="mv5">
+      <p>
+        Hi,<br />
+        I'm a product 🤓 at Google<br />
+        working on the <a href="https://cloud.google.com/">Google Cloud Platform</a>.
+      </p>
+
+      <p>
+        At one time I ran the product design team at <a href="https://www.heroku.com/">Heroku</a><br />
+        and founded <a href="https://www.getcloudapp.com/">CloudApp</a>.
+      </p>
+    </div>
+
+    <div className="mv4">
+      {
+        projects.map((project, index) => (
+          <div className={ `project ${!isLast(index, projects) && 'mb4'}` } key={ index }>
+            <Project project={ project } />
+          </div>
+        ))
+      }
+    </div>
 
     <style jsx>{`
       .wrapper {
         max-width: 1200px;
+        padding: 0 2rem;
       }
 
       .project {
@@ -36,8 +56,24 @@ export default () => (
 
     <style jsx global>{`
       body {
-        background: #F8F8F8;
-        font-family: "Gotham Rounded A", -apple-stytem, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+        background: #222;
+        color: #BCBCBC;
+        font-family: "Roboto Mono", Menlo, Monaco, monos-space;
+        font-size: 1.25rem;
+        line-height: 1.5;
+      }
+
+      a {
+        border-bottom: 2px solid #3A3A3A;
+        color: inherit;
+        text-decoration: none;
+        transition: all 0.2s ease-in-out;
+      }
+
+      a:hover,
+      a:active {
+        border-color: #BCBCBC;
+        color: white;
       }
     `}</style>
   </div>
