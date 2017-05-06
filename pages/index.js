@@ -17,7 +17,7 @@ export default () => (
     </Head>
 
     <header className="pv4">
-      <img src="/static/images/logo.svg" />
+      <img alt="Max Schoening" src="/static/images/logo.svg" />
     </header>
 
     <div className="mv5 mw6">
