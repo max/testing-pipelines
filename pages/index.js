@@ -23,7 +23,7 @@ export default () => (
     <div className="mv5 mw6">
       <p>
         Hi,<br />
-        I'm a product 🤓 at Google working on the <a href="https://cloud.google.com/">Google Cloud Platform</a>.
+        I&#39;m a product 🤓 at Google working on the <a href="https://cloud.google.com/">Google Cloud Platform</a>.
       </p>
 
       <p>
