@@ -23,11 +23,11 @@ export default () => (
     <div className="mv5 mw6">
       <p>
         Hi,<br />
-        I&#39;m a product 🤓 at Google working on the <a href="https://cloud.google.com/">Google Cloud Platform</a>.
+        I&#39;m a product design 🤓 at GitHub working on 🌍 scale computing for mere mortals.
       </p>
 
       <p>
-        At one time I ran the product design team at <a href="https://www.heroku.com/">Heroku</a> and founded <a href="https://www.getcloudapp.com/">CloudApp</a>.
+        This one time I made a ☕️ at Google Cloud, ran the product design team at <a href="https://www.heroku.com/">Heroku</a>, and founded <a href="https://www.getcloudapp.com/">CloudApp</a>.
       </p>
     </div>
 
