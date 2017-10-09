@@ -1,6 +1,12 @@
+language: node_js
+node_js:
+  - '8'
+script: npm run build
 deploy:
-  provider: pages
+  provider: script
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
   on:
     branch: master
+env:
+  global:
+    - GIT_DEPLOY_REPO=https://$GITHUB_TOKEN@github.com/max/max.wtf.git
