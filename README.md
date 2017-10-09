@@ -9,6 +9,6 @@ This is my personal internet website.
 ## Local setup
 
 ```
-yarn
-yarn run dev
+npm i
+npm run dev
 ```
