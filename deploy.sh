@@ -2,8 +2,6 @@
 set -e
 
 cd out
-rm -rf .git static
-cp -rL ../static .
 touch .nojekyll
 
 git config --global user.name "Travis CI" && \
