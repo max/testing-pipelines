@@ -5,11 +5,11 @@ node_js:
 script: npm run build
 
 deploy:
-  provider: script
-  script: deploy.sh
-  skip_cleanup: true
   on:
     branch: master
+  provider: script
+  script: scripts/deploy.sh
+  skip_cleanup: true
 
 env:
   global:
