@@ -9,4 +9,4 @@ deploy:
     branch: master
 env:
   global:
-    - GIT_DEPLOY_REPO=https://$GITHUB_TOKEN@github.com/max/max.wtf.git
+    - GIT_DEPLOY_REPO=https://$GH_TOKEN@github.com/max/max.wtf.git
