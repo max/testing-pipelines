@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 set -e
 
-echo "Starting deployment..."
-
 cd out
 touch .nojekyll
 
