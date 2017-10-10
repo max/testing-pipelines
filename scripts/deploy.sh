@@ -4,8 +4,8 @@ set -e
 cd out
 touch .nojekyll
 
-git config --global user.name "Travis CI" && \
-git config --global user.email "travis@travis-ci.org"
+git config --global user.name "Deployment Bot" && \
+git config --global user.email "deploy@travis-ci.org"
 
 git init
 git add -A
