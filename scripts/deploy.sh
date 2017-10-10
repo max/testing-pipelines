@@ -9,6 +9,5 @@ git config --global user.email "travis@travis-ci.org"
 
 git init
 git add -A
-git status
-git commit -m "Deploy to GitHub Pages"
+git commit -am "Deploy to GitHub Pages"
 git push --force "${GIT_DEPLOY_REPO}" gh-pages
