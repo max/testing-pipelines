@@ -1,5 +1,5 @@
 const path = (name, suffix='') => {
-  return `/static/images/${name}${suffix}.jpg`;
+  return `./static/images/${name}${suffix}.jpg`;
 };
 
 export default ({ alt, height, src, width }) => (
