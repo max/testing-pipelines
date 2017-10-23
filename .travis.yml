@@ -13,4 +13,4 @@ deploy:
 
 env:
   global:
-    - GIT_DEPLOY_REPO=https://$GH_TOKEN@github.com/max/max.wtf.git
+    - GIT_DEPLOY_REPO=https://$GH_TOKEN@github.com/max/max.git
