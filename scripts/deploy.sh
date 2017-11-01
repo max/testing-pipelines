@@ -2,6 +2,7 @@
 set -e
 
 cd out
+echo "www.max.wtf" >> CNAME
 touch .nojekyll
 
 git config --global user.name "Max Schoening" && \
