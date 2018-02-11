@@ -10,13 +10,11 @@ exports[`With Snapshot Testing App renders projects 1`] = `
     <img
       alt="Max Schoening"
       className="jsx-3138410735"
-      data-test-hook="logo"
       src="/static/images/logo.svg"
     />
   </header>
   <div
     className="jsx-3138410735 mv5 mw6"
-    data-test-hook="description"
   >
     <p
       className="jsx-3138410735"
