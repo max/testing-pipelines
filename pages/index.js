@@ -18,10 +18,10 @@ export default () => (
     </Head>
 
     <header className="pv4">
-      <img alt="Max Schoening" data-test-hook="logo" src="/static/images/logo.svg" />
+      <img alt="Max Schoening" src="/static/images/logo.svg" />
     </header>
 
-    <div className="mv5 mw6" data-test-hook="description">
+    <div className="mv5 mw6">
       <p>
         Hi,<br />
         I&#39;m a product design 🤓 at GitHub working on 🌍 scale computing for mere mortals.
