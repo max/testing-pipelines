@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Snapshot Testing App renders projects 1`] = `
+<div
+  className="jsx-3138410735 wrapper center pv4"
+>
+  <header
+    className="jsx-3138410735 pv4"
+  >
+    <img
+      alt="Max Schoening"
+      className="jsx-3138410735"
+      src="/static/images/logo.svg"
+    />
+  </header>
+  <div
+    className="jsx-3138410735 mv5 mw6"
+  >
+    <p
+      className="jsx-3138410735"
+    >
+      Hi,
+      <br
+        className="jsx-3138410735"
+      />
+      I'm a product design 🤓 at GitHub working on 🌍 scale computing for mere mortals.
+    </p>
+    <p
+      className="jsx-3138410735"
+    >
+      This one time I made a ☕️ at Google Cloud, ran the product design team at 
+      <a
+        className="jsx-3138410735"
+        href="https://www.heroku.com/"
+      >
+        Heroku
+      </a>
+      , and founded 
+      <a
+        className="jsx-3138410735"
+        href="https://www.getcloudapp.com/"
+      >
+        CloudApp
+      </a>
+      .
+    </p>
+  </div>
+  <div
+    className="jsx-3138410735 mv4"
+  >
+    <div
+      className="jsx-3138410735 project mb4"
+    >
+      <div>
+        <div
+          className="jsx-3374977276"
+        >
+          <img
+            alt="Heroku CLI"
+            className="jsx-3374977276 db"
+            height={800}
+            src="./static/images/cli.jpg"
+            srcSet="./static/images/cli.jpg, ./static/images/cli@2x.jpg 2x"
+            width={1200}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="jsx-3138410735 project mb4"
+    >
+      <div>
+        <div
+          className="jsx-3374977276"
+        >
+          <img
+            alt="Heroku Dashboard V1"
+            className="jsx-3374977276 db"
+            height={972}
+            src="./static/images/dashboard-v1.jpg"
+            srcSet="./static/images/dashboard-v1.jpg, ./static/images/dashboard-v1@2x.jpg 2x"
+            width={1200}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="jsx-3138410735 project mb4"
+    >
+      <div>
+        <div
+          className="jsx-3374977276"
+        >
+          <img
+            alt="Heroku Dashboard V2"
+            className="jsx-3374977276 db"
+            height={944}
+            src="./static/images/dashboard-v2.jpg"
+            srcSet="./static/images/dashboard-v2.jpg, ./static/images/dashboard-v2@2x.jpg 2x"
+            width={1200}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="jsx-3138410735 project mb4"
+    >
+      <div>
+        <div
+          className="jsx-3374977276"
+        >
+          <img
+            alt="Heroku Process Slider"
+            className="jsx-3374977276 db"
+            height={680}
+            src="./static/images/slider.jpg"
+            srcSet="./static/images/slider.jpg, ./static/images/slider@2x.jpg 2x"
+            width={1200}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="jsx-3138410735 project mb4"
+    >
+      <div>
+        <div
+          className="jsx-3374977276"
+        >
+          <img
+            alt="Heroku Status"
+            className="jsx-3374977276 db"
+            height={1507}
+            src="./static/images/status.jpg"
+            srcSet="./static/images/status.jpg, ./static/images/status@2x.jpg 2x"
+            width={1200}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="jsx-3138410735 project mb4"
+    >
+      <div>
+        <div
+          className="jsx-3374977276"
+        >
+          <img
+            alt="Heroku Button"
+            className="jsx-3374977276 db"
+            height={1406}
+            src="./static/images/button.jpg"
+            srcSet="./static/images/button.jpg, ./static/images/button@2x.jpg 2x"
+            width={1200}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="jsx-3138410735 project mb4"
+    >
+      <div>
+        <div
+          className="jsx-3374977276"
+        >
+          <img
+            alt="Heroku Dropbox Sync"
+            className="jsx-3374977276 db"
+            height={594}
+            src="./static/images/dropbox.jpg"
+            srcSet="./static/images/dropbox.jpg, ./static/images/dropbox@2x.jpg 2x"
+            width={1200}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="jsx-3138410735 project mb4"
+    >
+      <div>
+        <div
+          className="jsx-3374977276"
+        >
+          <img
+            alt="CloudApp Icon & Concept"
+            className="jsx-3374977276 db"
+            height={795}
+            src="./static/images/concept.jpg"
+            srcSet="./static/images/concept.jpg, ./static/images/concept@2x.jpg 2x"
+            width={1200}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="jsx-3138410735 project mb4"
+    >
+      <div>
+        <div
+          className="jsx-3374977276"
+        >
+          <img
+            alt="CloudApp Preview"
+            className="jsx-3374977276 db"
+            height={750}
+            src="./static/images/preview.jpg"
+            srcSet="./static/images/preview.jpg, ./static/images/preview@2x.jpg 2x"
+            width={1200}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="jsx-3138410735 project false"
+    >
+      <div>
+        <div
+          className="jsx-3374977276"
+        >
+          <img
+            alt="CloudApp Screenshots"
+            className="jsx-3374977276 db"
+            height={150}
+            src="./static/images/screenshots.jpg"
+            srcSet="./static/images/screenshots.jpg, ./static/images/screenshots@2x.jpg 2x"
+            width={1200}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
