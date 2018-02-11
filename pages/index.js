@@ -9,6 +9,7 @@ export default () => (
     <Head>
       <title>max.wtf – Max Schoening</title>
       <meta charset="utf-8" />
+      <meta name="description" content="Sr. Director of Product Design at GitHub" />
       <meta name="viewport" content="width=device-width" />
 
       <link rel="stylesheet" href="https://unpkg.com/normalize.css@5.0.0/normalize.css" />
