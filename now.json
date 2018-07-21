@@ -1,6 +1,3 @@
 {
-  "alias": [
-    "www.max.wtf",
-    "max.wtf"
-  ]
+  "type": "static"
 }
