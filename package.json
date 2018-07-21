@@ -7,9 +7,9 @@
   "author": "Max Schoening <max@max.wtf>",
   "license": "MIT",
   "scripts": {
-    "build": "next build && next export",
+    "build": "next build",
     "dev": "next",
-    "start": "next start",
+    "export": "next export",
     "test": "NODE_ENV=test jest"
   },
   "dependencies": {
