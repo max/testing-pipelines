@@ -1,9 +1,9 @@
 workflow "build and test" {
   on = "push"
-  resolves = ["build"]
+  resolves = ["build & test"]
 }
 
-action "build" {
+action "build & test" {
   uses = "actions/docker/cli@master"
   args = "build -t max/max.wtf ."
 }
