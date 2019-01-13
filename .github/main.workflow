@@ -5,5 +5,5 @@ workflow "build and test" {
 
 action "build" {
   uses = "actions/docker@master"
-  runs = "build -t max/max.wtf ."
+  args = "build -t max/max.wtf ."
 }
